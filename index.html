@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Styles/index.css">
+</head>
+<body>
+    <nav id="navbar">
+        <h1>&ltTask 4&gt</h1>
+        <h2>Todo List CURD Operations</h2>
+    </nav>
+    <div class="inputField">
+        <div>
+            <h3>Time</h3>
+            <input class="date" type="datetime-local">
+        </div>
+        <div>
+            <h3>Description</h3>
+            <input class="desc" type="text">
+        </div>
+        <div class="but">
+            <button onclick="addTask()">Add Task</button>
+            <button onclick="reset()">Reset</button>
+        </div>
+    </div>
+    <div class="outputField">
+        <div class="content">
+            <table class="task">
+                <tr class="tableHead">
+                    <th>Date and Time</th>
+                    <th>Description</th>
+                    <th>Delete</th>
+                    <th>Update</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="./Jscript/index.js"></script>
+</body>
+</html>

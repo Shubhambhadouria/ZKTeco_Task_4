@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+#navbar{
+    background-color: black;
+    width: 100%;
+}
+h1,h2{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    padding: 10px;
+    cursor: pointer;
+}
+h3{
+    font-size: 25px;
+}
+.inputField{
+    display: flex;
+    justify-content: space-between;
+    width: 67%;
+    margin: auto;
+    padding-top: 50px;
+    align-items: start;
+    /* border: 1px solid green; */
+    
+}
+.inputField>div{
+    display: inline-block;
+    margin: auto;
+    margin-top: 0;
+}
+.inputField>div:nth-child(1) input{
+    height: 35px;
+    font-size: 20px;
+    margin-top: 5px;
+    border: 0;
+    border: 3px solid black;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+.inputField>div:nth-child(2) input{
+    height: 35px;
+    font-size: 20px;
+    margin-top: 5px;
+    border: 0;
+    border: 3px solid black;
+    border-radius: 5px;
+    font-weight: bolder;
+    
+}
+.inputField>div:nth-child(3) button{
+    width:268px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    display: block;
+}
+
+.inputField>div:nth-child(3) button:nth-child(1){
+    background-color: green;
+    margin-top: -10px;
+    margin-bottom: 5px;
+    border: 0;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.inputField>div:nth-child(3) button:nth-child(2){
+    background-color: rgb(212, 175, 11);
+    border: 0;
+    font-size: 20px;
+    cursor: pointer;
+    /* margin-bottom: 10px; */
+}
+.outputField{
+    width: 58.5%;
+    margin: auto;
+    /* border: 1px solid red; */
+    align-items: center;
+    margin-top: 50px;
+    
+}
+
+.content{
+    /* border: 1px solid red; */
+    margin: auto;
+    text-align: left;
+    
+   
+}
+.tableHead{
+    color: white;
+}
+table:nth-child(odd){
+    background-color: black;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+table>tr:nth-child(odd){
+    background-color: gray;
+    
+}
+table>tr:nth-child(even){
+    background-color: white;
+}
+th{
+    padding: 10px;
+}
+td{
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+
